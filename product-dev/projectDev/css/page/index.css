@@ -1,0 +1,265 @@
+/************
+ * 日期：2018/11/19
+ * 名称：首页的css
+ * 作者：杜佳维
+ * 备注：null
+ */
+
+/* 首页 header label */
+body{
+	background:#F6F6F6;
+}
+
+
+/*mainWrap*/
+
+
+.mainWrap{
+	width:1192px;
+	height:481px;
+	margin:0 auto;
+}
+.subNav{
+	width:190px;
+	height:481px;
+	float:left;
+	background:#6E6568;
+}
+.subNav ul{
+	display:block;
+	margin-top:24px;
+}
+.subNav ul li{
+	height:30px;
+	clear:both;
+	line-height:30px;
+	font-size:12px;
+	color:#fff;
+	padding-left:12px;
+	cursor:pointer;
+	position:relative;
+}
+.subNav ul li:hover{
+	background:#eee;
+	color:#6E6568;
+}
+/*.subNav ul li:hover div.pupUpDiv{
+	display:block;
+}
+*/
+/* pupUpDiv */
+div.pupUpDiv{
+	display: none;
+	width: 200px;height: 100px;background: #eee;
+	color: #f00;position: absolute;top: 0;right: -200px;
+	border:1px solid #f00;z-index: 7;
+
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+div.pupUpDiv p:hover{
+	background: #ddd;
+}
+
+/* sliderWrap */
+.sliderWrap{
+	width: 995px;height: 340px;float: right;
+	overflow: hidden;position: relative;
+}
+.sliderWrap ul{
+	width: 3990px;position: absolute;left: 0;top: 0;
+	z-index: 3;
+}
+
+.sliderWrap ul li{
+	width: 995px;height: 340px;float: left;
+}
+.sliderWrap ul li img{
+	width: 995px;height: 340px;
+}
+
+.sliderWrap label,
+.sliderWrap span{
+	width: 40px;height: 70px;background: #666;
+	position: absolute;top: 140px;
+	font-size: 14px;color: #fff;text-align: center;
+	line-height: 70px;z-index: 5;
+	border-radius: 5px;cursor: pointer;
+	opacity: 0.7;
+}
+
+.sliderWrap label{left: 5px;}
+.sliderWrap span{right: 5px;}
+
+.sliderWrap label:hover,
+.sliderWrap span:hover{
+	background: #eee;color: #666;
+}
+
+/**/
+.pointer{
+	/*width会变，先定死*/
+	/*width: 120px;*/height: 20px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	/*margin-left:-60px;*/
+	z-index: 6;
+	padding-left: 9px;
+	border-radius: 7px;
+}
+.pointer p{
+	float: left;
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	margin: 4px 12px 0 0;
+	background: #fff;
+	cursor: pointer;
+}
+.pointer p:hover{
+	background: #f00;
+}
+.pointer p.redLi{
+	background: #f00;
+}
+
+.pointerBg{
+	width: 120px;
+	height: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 20px;left: 50%;
+	margin-left:-60px;
+	z-index: 5;
+	padding-left: 9px;
+	border-radius: 7px;
+	opacity: 0.3;
+}
+
+/*adWrap*/
+.adWrap{
+	width: 995px;float: right;overflow: hidden;
+}
+.adWrap img{
+	width: 492px;
+}
+
+/* product Title */
+.productTitle{
+	width: 1158px;
+	height: 60px;
+	margin:0 auto;
+	background-color: #F6F6F6;
+	background-image: url('../../images/icon/icon_5.jpg');
+	background-repeat: repeat-x;
+	background-position: center;
+	text-align: center;
+}
+.productTitle p{
+	background-color: #F6F6F6;
+	display: inline;
+	color: #000;
+	font-size: 22px;
+	line-height: 60px;
+	padding:0 57px;
+}
+
+/* productList */
+.productList{
+	width: 1158px;
+	height: 170px;
+	margin:0 auto;
+}
+.productWrap{
+	width:379px;
+	height: 170px;
+	float: left;
+}
+.pho_1{
+	background: url('../../images/temp/temp1.png') no-repeat;
+}
+.pho_2{
+	background: url('../../images/temp/temp2.png') no-repeat;
+} 
+.pho_3{
+	background: url('../../images/temp/temp3.png') no-repeat;
+} 
+.productWrap dl{
+	width: 136px;
+	height: 170px;
+	float: left;
+}
+/*这是最初级的模块化思路*/
+.productWrap dl.bg_1{
+	background: #D78E28;	
+}
+.productWrap dl.bg_2{
+	background: #498C94;	
+}
+.productWrap dl.bg_3{
+	background: #5C5566;	
+}
+.productWrap dl dt{
+	width: 97px;
+	height: 39px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin:44px auto 11px auto;
+	font-size: 18px;
+	color: #fff;
+	line-height: 39px;
+	text-align: center;
+}
+.productWrap dd{
+	width: 97px;
+	margin:0 auto;
+	color: #fff;
+	line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

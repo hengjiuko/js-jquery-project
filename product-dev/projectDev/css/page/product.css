@@ -1,0 +1,275 @@
+/************
+ * 日期：2018/11/09
+ * 名称：产品详情页的css
+ * 作者：杜佳维
+ * 备注：null
+ */
+
+.productWrap{
+	width: 1314px;
+	margin:10px auto;
+}
+
+.productImageWrap{
+	width: 495px;
+	height: 600px;
+	float: left;
+}
+
+.bigImg{
+	width: 495px;
+	height: 495px;
+	border:1px solid #666;
+	position: relative;
+}
+.bigImg img{
+	width: 495px;
+	height: 495px;
+}
+.bigImg i.icon_6{
+	width: 32px;
+	height: 32px;
+	z-index: 5;
+	background: url('../../images/icon/icon_6.jpg') no-repeat center;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.maskDiv{
+	width: 150px;
+	height: 150px;
+	background: #E69348;
+	position: absolute;
+	z-index: 5;
+	left: 20px;
+	top: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/* localImgWrap */
+.localImgWrap{
+	width: 495px;height: 495px;border:1px solid #666;position: absolute;
+	top: 0;right: -495px;overflow: hidden;
+	display: none;z-index: 9;background: #fff;
+}
+.localImgWrap img{
+	width: 1500px;height: 1500px;
+	position: absolute;left: 0;top: 0;
+}
+
+/* smallList */
+.smallList{
+	width: 495px;
+	height: 80px;
+	margin:0 auto;
+	position: relative;
+}
+.smallList label,
+.smallList span{
+	width: 27px;
+	height: 45px;
+	position: absolute;
+	top: 20px;
+	cursor: pointer;
+}
+.smallList label{left: 0;}
+.smallList span{right: 0;}
+
+.smallList ul{
+	/*width: 420px;*/
+	height: 70px;
+	position: relative;
+	display: block;
+	left: 40px;
+	top: 13px;
+}
+.smallList ul li{
+	float: left;
+	width: 59px;
+	height: 59px;
+	margin-right: 10px;
+	cursor: pointer;
+	border:1px solid #fff;
+}
+.smallList ul li img{
+	width: 59px;
+	height: 59px;
+}
+.smallList ul li:hover{
+	border:1px solid #f00;
+}
+
+
+/* 右边:rightWrap */
+.rightWrap{
+	float: right;
+	width: 777px;
+}
+
+.goodsTitle{
+	width: 95%;
+	margin:10px auto;
+}
+.goodsTitle h1{
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	line-height: 22px;
+	margin-bottom: 10px;
+	clear: both;
+}
+.goodsTitle li{
+	color: #f00;
+	line-height: 22px;
+	margin: 5px 0;
+}
+
+/*addressSendWrap*/
+.addressSendWrap{
+	width: 465px;
+	clear: both;
+}
+.addressSendWrap em{
+	float: left;
+	width: 66px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+}
+
+.addressWrap{
+	float: left;width: 398px;
+}
+label.titleLabel{
+	border:1px solid #ccc;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #505050;
+	padding:0 0 0 5px;
+	display: inline-block;
+	cursor: pointer;
+	border-bottom: 0;
+	background: #fff;
+	position: relative;
+	z-index: 5;
+}
+label.titleLabel p{
+	float: left;
+}
+i.icon_9{
+	float: left;
+	width: 14px;
+	height: 10px;
+	background: url('../../images/icon/icon_9.jpg') no-repeat;
+	margin:6px 11px 0 6px;
+}
+
+.addressList{
+	width: 396px;
+	background: #fff;
+	border:1px solid #ccc;
+	padding:12px 0 30px 0;
+	position: relative;
+	z-index: 4;
+	top: -1px;
+}
+.addressList ul{
+	width: 375px;
+	height: 25px;
+	clear:both;
+	margin-bottom: 13px;
+	margin: 0 auto;
+	margin-bottom: 13px;
+	border-bottom: 2px solid #EDD28B;
+}
+.addressList ul li{
+	float: left;
+	height: 24px;
+	padding:0 13px;
+	margin-right: 9px;
+	background: #fff;
+	line-height: 24px;
+	cursor: pointer;
+	border: 1px solid #ddd;
+}
+.addressList ul li.selectLi{
+	border: 2px solid #EDD28B;
+	border-bottom: 0;
+	height: 25px;
+	position: relative;
+}
+
+.nameList{
+	clear: 100%;
+	margin: 0 13px;
+}
+.nameList p{
+	width: 80px;
+	height: 20px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	margin:0 13px 13px 0;
+	float: left;
+	cursor: pointer;
+}
+.nameList p:hover{
+	background: #eee;
+}
+
+/* addBtnWrap */
+.addBtnWrap{
+	width:54px;
+	height: 48px;
+	border: 1px solid #ccc;
+	position: relative;
+	float: left;
+}
+.inputA{
+	width: 39px;
+	height: 48px;
+	float: left;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	border:0;
+}
+.inputB{
+	width: 16px;
+	height: 26px;
+	position: absolute;
+	top: 0;right: -1px;
+	background: #F1F1F1;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.inputC{
+	width: 16px;
+	height: 24px;
+	position: absolute;
+	bottom: -1px;
+	right: -1px;
+	background: #F1F1F1;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.addShopCarBtn{
+	width: 157px;
+	height: 50px;
+	background: #f00;
+	float: left;
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	border:0;
+	margin-left: 11px;
+	cursor: pointer;
+}

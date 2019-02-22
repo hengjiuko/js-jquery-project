@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页-电商网站设计</title>
+	<!--css重置-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!--大结构-->
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<!--页面小部件-->
+	<link rel="stylesheet" type="text/css" href="css/widget.css">
+	<!--公共样式-->
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<!--最后加载具体的页面-->
+	<link rel="stylesheet" type="text/css" href="css/page/index.css">
+
+</head>
+<body>
+	<div class="mainWrap">
+			<div class="subNav">
+				<ul id="subNavId"></ul>
+			</div>
+
+			<div class="sliderWrap">
+				<label id="leftBtnId"><<</label>
+				<ul id="sliderWrapId"></ul>
+				<span id="rightBtnId">>></span>
+				<div class="pointer" id="pointerId">
+					<!-- <p></p>
+					<p class="redLi"></p>
+					<p></p>
+					<p></p> -->
+				</div>
+				<div class="pointerBg" id="pointerBgId"></div>
+			</div>
+
+			<div class="adWrap mt10">
+				<p class="fl">
+					<img src="images/temp/5.jpg" />
+				</p>
+				<p class="fr">
+					<img src="images/temp/6.jpg" />
+				</p>
+			</div>
+		</div>
+
+		<div class="productTitle">
+			<p>享受品质</p>
+		</div>
+		<div class="productList" id="productListId">
+			<!-- <div class="productWrap pho_1 mr10">
+				<dl class="bg_1">
+					<dt>京东超市</dt>
+					<dd>天天打折，特别便宜</dd>
+				</dl>
+			</div>
+			<div class="productWrap pho_2 mr10">
+				<dl class="bg_2">
+					<dt>智能生活</dt>
+					<dd>特别智能，全自动化</dd>
+				</dl>
+			</div>
+			<div class="productWrap pho_3">
+				<dl class="bg_3">
+					<dt>奢侈大牌</dt>
+					<dd>特别有钱，买买买</dd>
+				</dl>
+			</div> -->
+		</div>
+		<br/><br/><br/><br/><br/>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/tempData.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<!--具体的业务代码-->
+<script type="text/javascript" src="js/page/index.js"></script>
+<!--入口文件，最后被引入-->
+<script type="text/javascript" src="js/main.js"></script>
+</html>

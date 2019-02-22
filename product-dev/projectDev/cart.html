@@ -1,0 +1,83 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>购物车-电商网站</title>
+		<meta charset='utf-8' />
+		<!-- 重置 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+		<!-- 页面小部件 -->
+		<link rel="stylesheet" type="text/css" href="css/widget.css" />
+
+		<!-- 公共样式 -->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+		<!-- 最后加载，具体的页面 -->
+		<link rel="stylesheet" type="text/css" href="css/page/cart.css" />
+	</head>
+	<body>
+
+		<div class="topGoodsNum">
+			<label>全部商品<i id="allGoodsNumId"></i></label>
+		</div>
+
+		<div class="cartTitle">
+			<ul>
+				<li class="w_1">
+					<input type='checkbox' class='checkBtnAll' />
+				</li>
+				<li class="w_2">全选</li>
+				<li class="w_3">商品</li>
+				<li class="w_4">单价</li>
+				<li class="w_5">数量</li>
+				<li class="w_6">小计</li>
+				<li>操作</li>
+			</ul>
+		</div>
+
+		<div id="cartWrapId" class="cartWrap cle">
+			<!-- <div class="line"></div> -->
+			<!-- <div class="goodsWrap">
+				<ul>
+					<li class="w_1"><input type='checkbox' /></li>
+					<li class="w_2">
+						<img src="images/temp2/tempxxx.png" />
+					</li>
+					<li class="w_3">
+						商品说明商品说明商品说明商品说明商品说明商品说明商品说明商品说明商品说明商品说明商品说明
+					</li>
+					<li class="w_4">￥79.00</li>
+					<li class="w_5">
+						<div class="enterGoodsNum">
+							<input class="minsBtn" type='button' value='-' />
+							<input class="enterNum" type='text' value=1 />
+							<input class="addBtn" type='button' value='+' />
+						</div>
+					</li>
+					<li class="w_6">￥79.00</li>
+					<li>删除</li>
+				</ul>
+			</div> -->
+		</div>
+
+		<div class="cartFooter">
+			<input type='checkbox' class="footerCheck checkBtnAll" />
+			<label class="mt22 fl mr10 ">全选</label>
+			<p class="mt22 fl">删除选中的商品</p>
+
+			<div class="footerA">已选择<i id="selectGoodsNumId"></i>件商品</div>
+			<div class="footerB">总价：<i id="goodsTotalMoneyId">￥</i></div>
+			<div class="footerC">已节省：-￥521.00</div>
+			<div class="gotoPay">去结算</div>
+		</div>
+	</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/tempData.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<!-- 购物车商品列表  Tpl -->
+<script type="text/javascript" src="js/page/cartTpl.js"></script>
+<!--具体的业务代码-->
+<script type="text/javascript" src="js/page/cart.js"></script>
+
+</html>

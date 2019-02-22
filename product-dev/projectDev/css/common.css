@@ -1,0 +1,160 @@
+/************
+ * 日期：2018/11/18
+ * 名称：页面的公共样式
+ * 作者:杜佳维
+ * 备注：null
+ */
+.pr{position: relative;}
+.fl{float: left;}
+.fr{float: right;}
+
+.mt10{margin-top: 10px;}
+.mt22{margin-top: 22px;}
+.mt24{margin-top: 24px;}
+.mt60{margin-top: 60px;}
+
+.mr10{margin-right: 10px;}
+.mL75{margin-left: 75px;}
+
+.cle:after{
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+/* 头部样式 */
+.header{
+    width: 1002px;
+    height: 169px;
+    background: #F6F6F6;
+    margin:0 auto;
+    position: relative;
+    padding: 0 0 0 190px;
+}
+.header label{
+    width: 190px;
+    height: 169px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../../images/logo.jpg') no-repeat;
+    /*text-indent，首行缩进*/
+    text-indent: -10000em;
+    /*这种写法，为了盲人阅读器*/
+}
+.headerNav{
+    width:100%;
+    height:28px;
+    background:#E3E4E5;
+    font-size:12px;
+    color: #76869F;
+    border-bottom: 1px solid #C6C6C6;
+}
+.headerNav span{
+    height:28px;
+    float:left;
+    background:url("../../images/icon/icon_1.jpg") no-repeat left 6px;
+    margin-left:20px;
+    padding-left:18px;
+    line-height:28px;
+
+
+}
+.headerNav ul{
+    
+    margin-right:16px;
+}
+.headerNav ul li{
+    float:right;
+    margin-right:13px;
+    line-height:28px;
+
+}
+.headerNav ul li.redLi{
+    color:#f00;
+}
+.headerNav ul em{
+    width:1px;
+    height:13px;
+    background:#76869F;
+    float:right;
+    margin:9px 13px 0 0;
+}
+.headerSearch{
+    width:780px;
+    height:43px;
+    position:absolute;
+    left:320px;
+    top:54px;
+}
+.searchInput{
+    width:494px;
+    height:33px;
+    float:left;
+    background:#fff;
+    border:1px solid #f00;
+    font-size: 12px;
+    color: #98B1D8;
+    padding:0 0 0 6px;
+}
+.searchBtn{
+    width: 50px;
+    height: 35px;
+    background: #f00;
+    float: left;
+    border:0;
+    cursor: pointer;
+    background-image: url('../../images/icon/icon_2.jpg');
+    background-color: #f00;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.shopCar{
+    width:188px;
+    height:33px;
+    border:1px solid #666;
+    float:left;
+    margin-left:31px;
+    color: #f00;
+    font-size: 12px;
+    text-align: center;
+    line-height: 33px;
+    background-image: url('../../images/icon/icon_3.jpg');
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-position:43px center;
+    cursor:pointer;
+}
+.shopCar i{
+    width: 16px;height: 16px;line-height: 16px;
+    text-align: center;font-size: 12px;color: #fff;
+    border-radius: 100%;
+    background: #f00;display: block;
+    position: absolute;top: 5px;right: 57px;
+} 
+/*  headerColumn */
+.headerColumn{
+    position:absolute;
+    left:230px;
+    bottom:12px;;
+}
+.headerColumn li{
+    float:left;
+    font-size:14px; 
+    color:#311D12;
+    margin-right:20px;
+}
+.headerColumn em{
+    width: 1px;height: 10px;background: #ccc;float: left;
+    margin: 5px 20px 0 0;
+
+}
+.headerColumn li i.item_1{
+    display: block;
+    width: 30px;height: 18px;
+    background: url('../../images/icon/icon_4.jpg') no-repeat;
+    position: absolute;top: -10px;right: -30px;
+}

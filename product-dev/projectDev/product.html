@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>产品详情页-电商网站</title>
+		<meta charset='utf-8' />
+		<!-- 重置 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+		<!-- 页面小部件 -->
+		<link rel="stylesheet" type="text/css" href="css/widget.css" />
+
+		<!-- 公共样式 -->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+		<!-- 最后加载，具体的页面 -->
+		<link rel="stylesheet" type="text/css" href="css/page/product.css" />
+		<style type="text/css">
+			#titleLableDivId{}
+			#titleLableDivId p{margin-right: 15px;float: left;}
+		</style>
+	</head>
+	<body>
+
+		<div class="productWrap cle">
+			<!-- 左边，产品大小图 -->
+			<div class="productImageWrap">
+				<!-- 大图 -->
+				<div class="bigImg" id="bigImgWrapId">
+					<h1 id="loadingTxtId" style="line-height:440px;text-align:center;font-size:33px;">图片正在加载中</h1>
+					<div class="maskDiv" style="display:none;" id="maskDivId"></div>
+					<img id="bigImgId"  />
+					<i class="icon_6"></i>
+					<!-- 局部显示大图 -->
+					<div class="localImgWrap" id="localImgWrapId">
+						<img src="images/temp2/1.png"/>
+					</div>
+				</div>
+				<!-- 小图列表 -->
+				<div class="smallList">
+					<label id="leftBtnId"><img src="images/icon/icon_7.jpg"></label>
+					<ul id="smallListId"></ul>
+					<span id="rightBtnId"><img src="images/icon/icon_8.jpg"></span>
+				</div>
+			</div>
+
+			<!-- 右边 -->
+			<div class="rightWrap cle">
+
+				<!-- 产品标题 -->
+				<div class="goodsTitle cle" id="goodsTitleId">
+					<!-- <h1>【返场券后价89】天猫精灵 方糖新品套装AI智能音箱蓝牙音响</h1>
+					<ul>
+						<li>产品描述1111</li>
+						<li>产品描述222</li>
+						<li>产品描述33333</li>
+					</ul> -->
+				</div>
+
+				<!-- 配送地址 -->
+				<div class="addressSendWrap cle">
+					<em>配 送 至</em>
+					<div class="addressWrap cle">
+						<label class="titleLabel" id="titleLabelId">
+							<div id="titleLableDivId" class="fl">请选择配送地址</div>
+							<i class="icon_9"></i>
+						</label>
+						<div class="addressList cle" id="addressListId">
+							<ul>
+								<li class="selectLi" id="tabA">请选择省</li>
+								<li id="tabB" style="display:none">请选择市</li>
+								<li id="tabC" style="display:none">请选择区</li>
+							</ul>
+							<div id="provinceId" class="nameList cle"></div>
+							<div id="cityId" style="display:none" class="nameList cle"></div>
+							<div id="areaId" style="display:none" class="nameList cle"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 加入购物车按钮 -->
+				<div class="mL75 mt60">
+					<div class="addBtnWrap">
+						<input id="inputAId" class="inputA" type='text' value="" />
+						<input id="inputBId" class="inputB" type='button' value="+" />
+						<input id="inputCId" class="inputC" type='button' value="-" />
+					</div>
+					<input id="addShopCarBtnId" class="addShopCarBtn" type='button' value="加入购物车" />
+				</div>
+
+			</div>
+		
+		</div>
+
+	</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/tempData.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<!--具体的业务代码-->
+<script type="text/javascript" src="js/page/product/product.js"></script>
+<script type="text/javascript" src="js/page/product/goodsInfoFn.js"></script>
+<script type="text/javascript" src="js/page/product/addressMenu.js"></script>
+<script type="text/javascript" src="js/page/product/gotoShoppingCar.js"></script>
+
+</html>
